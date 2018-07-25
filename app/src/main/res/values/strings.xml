@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Star Wars</string>
+    <string name="sort_by_title">Sort by title</string>
+    <string name="sort_by_year">Sort by year</string>
+    <string name="clear_sorting">Clear sorting</string>
+    <string name="year">year</string>
+    <string name="title">title</string>
+    <string name="title_activity_movie_details">MovieDetailsActivity</string>
+    <string name="ok">OK</string>
+    <string name="problem_occured">Problem occured</string>
+    <string name="base_url">http://www.mocky.io/v2/</string>
+    <string name="no_internet_connexion">No Internet Connexion</string>
+</resources>

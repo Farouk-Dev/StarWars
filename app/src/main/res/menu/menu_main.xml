@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.testmid.testmid.com.example.testmid.activities.list_movies_activity.view.ListMoviesActivity">
+    <item
+        android:id="@+id/action_sort_by_title"
+        android:orderInCategory="100"
+        android:title="@string/sort_by_title"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_sort_by_year"
+        android:orderInCategory="100"
+        android:title="@string/sort_by_year"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_clear_sorting"
+        android:orderInCategory="100"
+        android:title="@string/clear_sorting"
+        app:showAsAction="never" />
+</menu>
