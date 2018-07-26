@@ -53,12 +53,14 @@
                 android:layout_marginTop="8dp"
                 android:paddingEnd="24dp"
                 android:paddingStart="24dp"
+                android:textSize="11sp"
                 android:textColor="@color/grey"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.501"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/mPager"
-                tools:text="intro" />
+                tools:text="intro"
+                tools:ignore="SmallSp" />
 
 
 
@@ -70,6 +72,7 @@
                 android:layout_marginTop="24dp"
                 android:paddingEnd="24dp"
                 android:paddingStart="24dp"
+                android:textSize="11sp"
                 android:textColor="@color/black"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -77,7 +80,8 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txt_intro"
                 app:layout_constraintVertical_bias="0.0"
-                tools:text="text" />
+                tools:text="text"
+                tools:ignore="SmallSp" />
         </android.support.constraint.ConstraintLayout>
     </ScrollView>
 
