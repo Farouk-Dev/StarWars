@@ -80,11 +80,6 @@ class ListMoviesActivity : AppCompatActivity(), ViewInterface, WsCallInterface {
     //********************************************************
 
     override fun onSuccess(response: ArrayList<Movie>) {
-
-        response.get(0).images!!.clear()
-        response.get(0).images!!.add("http://www.gstatic.com/webp/gallery/2.webp")
-        response.get(0).images!!.add("http://www.gstatic.com/webp/gallery/5.jpg")
-        response.get(0).images!!.add("http://www.gstatic.com/webp/gallery/4.webp")
         // initialize arrays
         movies = ArrayList()
         moviesDefaultSorting = ArrayList()
