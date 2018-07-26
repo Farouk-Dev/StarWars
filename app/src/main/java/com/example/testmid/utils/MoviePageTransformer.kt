@@ -31,14 +31,16 @@ class MoviePageTransformer : ViewPager.PageTransformer {
             // Page is currently being swiped -- perform animations here
             if (1 - absPosition >= 0.8)
                 if (shadow != null) {
-                    shadow.translationX = ((-(1 - position)).toDouble() * 0.1 * pageWidth.toDouble() * 2.0).toFloat()
-                    shadow.alpha = 1 - (1 - absPosition)
+                    shadow.translationX = ((-(1 - position)).toDouble() * 0.8 * pageWidth / 2.toDouble() * 2.0).toFloat()
+                    shadow.alpha = (1 - (1 - (absPosition)))
                 }
 
 
-            if (position < 0.0f)
+            if (position < 0.0f) {
                 view.alpha = 1f
-            else {
+                shadow.alpha = 0f
+
+            } else {
                 view.alpha = 1 - absPosition
                 //Half the normal speed
                 picture.translationX = -position * (pageWidth / 2)
